@@ -14,6 +14,14 @@
             let album = await response.json();
             document.getElementById("album_name").innerHTML = album.title;
         }
+
+        // async function getAlbums() {
+        //     let response = await fetch("http://localhost:8081/albums/");
+        //     let albums = await response.json();
+
+        //     console.log("what");
+        // }
+
         getAlbumName();
     </script>
 </body>
